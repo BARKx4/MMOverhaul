@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "mmoverhaul.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"BlockBreakMixin",
+	"FurnaceTakeItemMixin",
+	"FurnaceCraftedMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

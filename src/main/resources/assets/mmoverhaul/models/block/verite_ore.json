@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mmoverhaul:block/verite_ore"
+    }
+}
