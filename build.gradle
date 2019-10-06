@@ -36,8 +36,15 @@ repositories {
         name = "NerdHubMC"
         url = "https://maven.abusedmaster.xyz"
     }
-    
-    maven { url 'https://jitpack.io' }
+    maven {
+      	name = "Cotton"
+      	url = "http://server.bbkr.space:8081/artifactory/libs-release/"
+  	}
+  	maven {
+      	name = "Cotton (snapshots)"
+      	url = "http://server.bbkr.space:8081/artifactory/libs-snapshot/"
+  	}
+	maven { url 'https://jitpack.io' }
 }
 
 processResources {
