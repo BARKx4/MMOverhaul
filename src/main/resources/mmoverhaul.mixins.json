@@ -3,9 +3,7 @@
   "package": "com.barkx4.mmoverhaul.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-	"BlockBreakMixin",
-	"FurnaceTakeItemMixin",
-	"FurnaceCraftedMixin"
+	"BlockBreakMixin"
   ],
   "client": [
   ],
