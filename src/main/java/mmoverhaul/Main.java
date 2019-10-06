@@ -20,7 +20,6 @@ public class Main implements ModInitializer
 	public static final ComponentType<SkillComponent> SKILLS = 
 	        ComponentRegistry.INSTANCE.registerIfAbsent(new Identifier("mmoverhaul:skills"), SkillComponent.class);
 	
-    @SuppressWarnings("unchecked")
 	@Override
     public void onInitialize()
     {       
@@ -30,6 +29,6 @@ public class Main implements ModInitializer
     	// Add the component to every instance of PlayerEntity()
     	EntityComponentCallback.event(PlayerEntity.class).register((player, components) -> components.put(SKILLS, new BaseSkillComponent()));
     	// Ensure the component's data is copied when the player respawns
-    	EntityComponents.setRespawnCopyStrategy((ComponentType)SKILLS, (RespawnCopyStrategy)RespawnCopyStrategy.ALWAYS_COPY);
+    	EntityComponents.setRespawnCopyStrategy(SKILLS, RespawnCopyStrategy.ALWAYS_COPY);
     }
 }
