@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mmoverhaul:item/dull_copper_ingot"
+     }
+}
