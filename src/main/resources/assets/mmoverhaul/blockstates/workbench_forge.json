@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "uo:workbench_forge" },
-        "facing=south": { "model": "uo:workbench_forge", "y": 180 },
-        "facing=west":  { "model": "uo:workbench_forge", "y": 270 },
-        "facing=east":  { "model": "uo:workbench_forge", "y": 90 }
-    }
-}

@@ -27,6 +27,8 @@ dependencies {
     
 	modApi "com.github.NerdHubMC.Cardinal-Components-API:cardinal-components-entity:2.0.3"
 	modApi "com.github.NerdHubMC.Cardinal-Components-API:cardinal-components-base:2.0.3"
+	
+	modImplementation 'com.github.BARKx4:Economy:-SNAPSHOT'
 }
 
 repositories {
@@ -34,6 +36,8 @@ repositories {
         name = "NerdHubMC"
         url = "https://maven.abusedmaster.xyz"
     }
+    
+    maven { url 'https://jitpack.io' }
 }
 
 processResources {
